@@ -40,7 +40,7 @@ cacheSolve <- function(x, ...) #This return cache data
   inv              ## Return a matrix that is the inverse of 'x'
 }
 
-f <- makeCacheMatrix(matrix(1:8,2,4))
+f <- makeCacheMatrix(matrix(1:10,2,5))
 f$get()
 f$getinv()
 cacheSolve(f)
